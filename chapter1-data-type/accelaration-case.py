@@ -1,0 +1,5 @@
+float_diatance = float(input("请输入距离："))
+float_time = float(input("请输入时间："))
+float_velocity = float(input("请输入速度："))
+float_acceleration = ((float_diatance - float_velocity * float_time) * 2) / (float_time ** 2)
+print("加速度为：" + str(float_acceleration))
